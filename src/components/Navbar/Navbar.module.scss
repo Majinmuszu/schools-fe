@@ -1,0 +1,26 @@
+@import './../../utils/variables';
+
+.navbar {
+    background-color: $primaryColor;
+    padding: 20px 0;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav {
+    &_button {
+        margin-left: 20px;
+    }
+}
+.logo {
+    & svg {
+        margin-right: 20px;
+        width: 80px;
+    }
+    color: $secondaryColor;
+    font-size: $fontXl;
+    align-items: center;
+    display: flex;
+}
