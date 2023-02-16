@@ -9,7 +9,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import School from "@/icons/School";
 import { tourney } from "@/utils/fonts";
 
-const Navbar = () => {
+const Navbar = () => {  
   return (
     <header className={s.navbar}>
       <Container className={s.container}>

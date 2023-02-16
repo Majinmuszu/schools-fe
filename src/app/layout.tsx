@@ -2,10 +2,9 @@
 
 import "./globals.css";
 import Navbar from "../components/Navbar/Navbar";
-import { ThemeProvider } from "@emotion/react";
 import { lightTheme } from "@/utils/theme";
-import { CssBaseline } from "@mui/material";
 import { roboto } from "@/utils/fonts";
+import { CssBaseline, ThemeProvider } from "@mui/material";
 
 export default function RootLayout({
   children,
@@ -20,6 +19,7 @@ export default function RootLayout({
       */}
       <head />
       <ThemeProvider theme={lightTheme}>
+        <CssBaseline enableColorScheme/>
         <body>
           <Navbar />
           <main>{children}</main>
