@@ -1,7 +1,7 @@
 'use client'
 
 import "./globals.css";
-import Navbar from "../components/Navbar/Navbar";
+import Navbar from "../components/Layout/Navbar/Navbar";
 import { lightTheme } from "@/utils/theme";
 import { roboto } from "@/utils/fonts";
 import { CssBaseline, ThemeProvider } from "@mui/material";

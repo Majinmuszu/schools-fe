@@ -12,16 +12,34 @@ export const lightTheme: ThemeOptions = createTheme({
       main: '#00ADB5',
     },
   },
+  breakpoints: {
+    values: {
+      xs: 0,
+      sm: 450,
+      md: 768,
+      lg: 1024,
+      xl: 1200,
+    },
+  },
 });
 
 export const darkTheme: ThemeOptions = createTheme({
     palette: {
-      mode: 'light',
+      mode: 'dark',
       primary: {
         main: '#393E46',
       },
       secondary: {
         main: '#00ADB5',
+      },
+    },
+    breakpoints: {
+      values: {
+        xs: 0,
+        sm: 450,
+        md: 768,
+        lg: 1024,
+        xl: 1200,
       },
     },
   });

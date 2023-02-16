@@ -1,0 +1,38 @@
+@import './../../../utils/variables';
+
+.navbar {
+    background-color: $primaryColor;
+    padding: 20px 0;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav {
+    &_button {
+        margin-left: 20px;
+    }
+}
+.logo {
+    & svg {
+        margin-right: 20px;
+        width: 40px;
+        @media screen and (min-width: 450px) {
+            width: 80px;
+        }
+        @media screen and (min-width: 1024px) {
+            width: 80px;
+        }
+    }
+    color: $secondaryColor;
+    font-size: $fontMd;
+    align-items: center;
+    display: flex;
+    @media screen and (min-width: 450px) {
+        font-size: $fontLg;
+    }
+    @media screen and (min-width: 1024px) {
+        font-size: $fontXl;
+    }
+}
